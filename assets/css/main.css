@@ -3141,11 +3141,25 @@ input, select, textarea {
 					padding: 0;
 				}
 
-  .responsive-img {
-                      width: 25;
-					  height: 50;
-					  display: block;
-					  margin: 20 auto;
-					}
+ @media (max-width: 480px) {
+  h1 img {
+    height: 70px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    padding: 10px;
+  }
+	 .responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+}
 
 	}
