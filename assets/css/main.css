@@ -3153,30 +3153,5 @@ input, select, textarea {
   justify-content: center;
   flex-wrap: wrap;
 }
-		/* Tablets */
-@media (max-width: 768px) {
-  h2 {
-    font-size: 1.5rem;
-  }
 
-  .image-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-/* Phones */
-@media (max-width: 480px) {
-  h1 img {
-    height: 70px;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  .container {
-    padding: 10px;
-  }
-}
 	}
