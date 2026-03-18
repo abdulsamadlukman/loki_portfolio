@@ -3147,11 +3147,7 @@ input, select, textarea {
   display: block;
   margin: 0 auto;
 }
-		.image-grid {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+		
+
 
 	}
