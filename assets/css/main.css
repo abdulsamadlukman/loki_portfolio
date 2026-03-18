@@ -3150,7 +3150,7 @@ input, select, textarea {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .responsive-img {
     max-width: 100%;
   }
