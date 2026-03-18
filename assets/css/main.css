@@ -3164,7 +3164,10 @@ input, select, textarea {
   max-width: 100% !important;
   height: auto !important;
 }
-
+.responsive-img {
+  width: 100%;
+  max-width: 300px;  /* smaller cap */
+}
 
 
 	}
