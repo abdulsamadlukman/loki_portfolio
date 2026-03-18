@@ -300,7 +300,12 @@ input, select, textarea {
 			.container {
 				width: 100% !important;
 			}
-
+            .responsive-img {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 		}
 
 /* Row */
