@@ -3141,25 +3141,29 @@ input, select, textarea {
 					padding: 0;
 				}
 
- @media screen and (max-width: 300px) {
-  h1 img {
-    height: 70px;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  .container {
-    padding: 10px;
-  }
-	 .responsive-img {
+.image.fit img {
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 0 auto;
+  display: block;
+}
+		img {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto;
 }
-
+		.main.special img {
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
+  display: block;
+}
+		#header img {
+  max-width: 200px;
+  height: auto;
+}
+		.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 	}
