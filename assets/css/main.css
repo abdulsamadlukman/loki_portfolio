@@ -3141,20 +3141,18 @@ input, select, textarea {
 					padding: 0;
 				}
 
-.responsive-img {
-  width: 100%;
-  max-width: 500px;   /* 👈 prevents oversized images on desktop */
-  height: auto;
-  display: block;
-  margin: 0 auto;
+/* Desktop */
+@media (min-width: 769px) {
+  .responsive-img {
+    max-width: 400px;
+  }
 }
-		.container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-		.main.special .content {
-  max-width: 900px;
-  margin: 0 auto;
+
+/* Mobile */
+@media (max-width: 768px) {
+  .responsive-img {
+    max-width: 100%;
+  }
 }
 
 
