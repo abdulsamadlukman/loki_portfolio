@@ -3142,7 +3142,7 @@ input, select, textarea {
 				}
 
 /* Desktop */
-@media (min-width: 769px) {
+@media screen and (min-width: 769px) {
   .responsive-img {
     width: 100px;
 	height:25px
@@ -3150,7 +3150,7 @@ input, select, textarea {
 }
 
 /* Mobile */
-@media (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .responsive-img {
     max-width: 100%;
   }
