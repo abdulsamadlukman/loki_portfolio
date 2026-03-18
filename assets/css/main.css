@@ -3154,7 +3154,7 @@ input, select, textarea {
     max-width: 100%;
   }}
 	.responsive-img {
-  width: 100% !important;
+  width: 25% !important;
   max-width: 400px !important;  /* 👈 hard limit */
   height: auto !important;
   display: block;
@@ -3165,7 +3165,7 @@ input, select, textarea {
   height: auto !important;
 }
 .responsive-img {
-  width: 100%;
+  width: 25%;
   max-width: 300px;  /* smaller cap */
 }
 
