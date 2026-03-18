@@ -3144,7 +3144,8 @@ input, select, textarea {
 /* Desktop */
 @media (min-width: 769px) {
   .responsive-img {
-    max-width: 300px;
+    width: 500px;
+	height: 275px
   }
 }
 
@@ -3152,21 +3153,7 @@ input, select, textarea {
 @media (max-width: 768px) {
   .responsive-img {
     max-width: 100%;
-  }}
-	.responsive-img {
-  width: 25% !important;
-  max-width: 400px !important;  /* 👈 hard limit */
-  height: auto !important;
-  display: block;
-  margin: 0 auto;
-}
-	.image.fit img {
-  max-width: 100% !important;
-  height: auto !important;
-}
-.responsive-img {
-  width: 25%;
-  max-width: 300px;  /* smaller cap */
+  }
 }
 
 
