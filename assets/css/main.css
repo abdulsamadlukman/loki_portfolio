@@ -3141,20 +3141,6 @@ input, select, textarea {
 					padding: 0;
 				}
 
-/* Desktop */
-@media screen and (min-width: 769px) {
-  .responsive-img {
-    width: 100px;
-	height:25px
-  }
-}
-
-/* Mobile */
-@media screen and (max-width: 480px) {
-  .responsive-img {
-    max-width: 100%;
-  }
-}
 
 
 	}
